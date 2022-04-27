@@ -1,0 +1,45 @@
+body {
+    background-color: #9975a0a8;
+}
+
+.painel {
+    border-radius: .5em;
+    background-color: #640d75;
+    flex-direction: column;
+}
+
+.container-fluid.menu-header {
+    height: 15%!important;
+    color: #000;
+    background-color: #fff;
+    border-radius: .3rem .3rem 0 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    padding: .3em!important;
+}
+
+.menu-body {
+    width: 90%;
+    margin: auto;
+}
+
+ul#list-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 10% 1.5em;
+}
+
+.btn-menu {
+    font-size: 1.35em;
+    color: #000;
+    background-color: #fff;
+}
+
+.btn-menu:focus, .btn-menu:hover {
+    font-size: 1.25em;
+    font-weight: bold;
+    outline: none;
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #b13ec7;
+}

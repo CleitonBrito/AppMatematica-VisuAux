@@ -1,0 +1,65 @@
+body {
+    background-color: #9975a0a8;
+}
+
+.btn-back, .btn-home, .text-help {
+    background-color: #440052;
+}
+
+.btn-back:focus, .btn-home:focus, .btn-back:hover, .btn-home:hover {
+    background-color: #810f97;
+}
+
+.text-help:focus {
+    background-color: #810f97;
+}   
+
+.cards {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 9.8em;
+    height: 10em;
+    border: 1vh solid #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 1em;
+    text-indent: -9000px;
+    filter: contrast(120%) opacity(1);
+    
+    transition: .1s ease-in-out;
+}
+
+.card:focus, .card:hover{
+    border: 1vh solid #810f97;
+    outline: none;
+    box-shadow: 3px 3px 5px #000;
+    transition: .1s ease-out;
+}
+
+img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 576px){
+   .card {
+        margin: .5em!important;
+        width: 40%;
+        flex: 0 0 auto;
+   }
+
+    .painel-title {
+        width: 80%;
+        margin-top: 6em!important;
+   }
+
+   .painel-body {
+        padding: 0;
+        margin-bottom: 2em;
+   }
+}

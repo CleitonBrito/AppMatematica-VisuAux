@@ -1,0 +1,175 @@
+.col-esquerda, .col-direita {
+    display: flex;
+}
+
+.col-esquerda {
+    justify-content: flex-end;
+}
+
+.col-direita {
+    justify-content: flex-start;
+}
+
+.seta_pagina {
+    border-radius: 50%;
+    border: .15em solid #fff;
+    outline: none;
+}
+
+.seta_pagina:focus, .seta_pagina:hover {
+    box-shadow: 0 0 0 0.15rem  #06101a!important;
+    border: none;
+}
+
+#seta_esquerda {
+    transform: scaleX(-1);
+}
+
+.cards {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    font-family: inherit;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    min-width: 10em;
+    height: 10em;
+    margin: 1em;
+    padding: 2vh;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+    outline: none;
+}
+
+.card:focus, .card:hover{
+    box-shadow: 0 0 0 0.2rem  #06101a!important;
+}
+
+.card_questao{
+    font-size: 10pt;
+}
+
+.card_fases{
+    margin-top: 1em;
+    text-align: center;
+}
+
+.card_fase{
+    font-size: 40pt;
+}
+
+@media only screen and (max-width: 820px){
+    h1.title {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    h1.title {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 1125px){
+    .card {
+        min-width: 7.5em!important;
+        height: 7.5em!important;
+    }
+}
+
+
+@media only screen and (max-width: 1000px){
+    .card {
+        width: 8em!important;
+        height: 8em!important;
+    }
+}
+
+@media only screen and (max-width: 845px){
+    .card {
+        min-width: 7em!important;
+        width: 7em!important;
+        height: 7em!important;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .cards{
+        margin: 0 auto!important;
+    }
+    
+    .card {
+        min-width: 5em!important;
+        width: 6em!important;
+        height: 6em!important;
+    }
+
+    .card_fase {
+        font-size: 30pt!important;
+    }
+
+    .painel-title {
+        margin-top: 6em!important;
+        margin-bottom: 0!important;
+    }
+
+    h1.title {
+        width: 55%;
+    }
+
+    .text-help {
+        margin-bottom: 1em!important;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 525px){
+    .card {
+        width: 5.3em!important;
+        height: 5.3em!important;
+        margin: .5em .5em!important;
+    }
+
+    .painel-body {
+        min-height: 60vh!important;
+        padding: 0 1em 1em!important;
+    }
+
+    h1.title {
+        width: 60%;
+    }
+
+    .seta_pagina {
+        width: 2em!important;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .card {
+        width: 5em!important;
+        height: 5em!important;
+        margin: .5em .5em!important;
+    }
+
+    .col-esquerda, .col-direita {
+        width: auto!important;
+    }
+
+    .painel-body {
+        min-height: 60vh!important;
+        padding: 0 .5em 2em!important;
+    }
+    
+    h1.title {
+        width: 75%;
+    }
+
+    .seta_pagina {
+        width: 2em!important;
+    }
+}

@@ -1,0 +1,101 @@
+body{
+    background-color: #9975a0a8;
+}
+
+img.btn-back, img.btn-home, .text-help, .card, .seta_pagina, .painel-questao, .circle-quest {
+    color: #fff;
+    background-color: #440052;
+}
+
+img.btn-back:focus, img.btn-home:focus, .text-help:focus, .card:focus, .seta_pagina:focus, .title-info:focus,
+img.btn-back:hover, img.btn-home:hover, .card:hover, .seta_pagina:hover, .title-info:hover {
+    background-color: #810f97;
+}
+
+.questao:focus, .questao:hover, .title-info:focus, .title-info:hover {
+    background-color:#640d75;
+    box-shadow: 3px 3px 2px 1px #00000080!important;
+}
+
+.text-help {
+    margin-bottom: .5em;
+}
+
+.painel-body {
+    justify-content: center;
+}
+
+.painel-questao {
+    flex-wrap: wrap;
+    margin: 0 2%;
+    padding: 2em;
+    border-radius: .8em;
+}
+
+.painel-title {
+    display: flex;
+}
+
+.header-infos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .2em;
+    padding: .2em;
+}
+
+h1.title {
+    margin-bottom: 0!important;
+    padding: .2em 1.8em!important;
+}
+
+.title-info {
+    outline: none;
+    width: 30%;
+    border-radius: 2em;
+    padding: .2em 0;
+}
+
+.questao {
+    text-align: justify;
+    padding: 0 .5em;
+    border-radius: .2em;
+    text-indent: 3em;
+    margin-bottom: .5em;
+}
+
+.questao:focus {
+    outline: none;
+}
+
+.footer-infos {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.btn_iniciar {
+    padding: .2em 1em;  
+}
+
+a {
+    color: #fff;
+}
+
+a:focus, a:hover {
+    outline: none;
+    background-color: #810f97;
+    padding: .2em;
+    border: 1px solid #000;
+    border-radius: .5em;
+}
+
+em {
+    text-transform: uppercase;
+}

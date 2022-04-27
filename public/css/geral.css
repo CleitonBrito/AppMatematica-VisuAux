@@ -1,0 +1,150 @@
+:root {
+    --predominant-color: #640d75;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-image: url(../imagens/bg.png);
+}
+
+.container-fluid {
+    align-items: center;
+    justify-content: center;
+    padding: 0px!important;
+}
+
+.nav-buttons {
+    display: flex;
+    width: 7em;
+    position: absolute;
+    margin: 2em 0 0 2em; 
+}
+
+.painel-conteudos {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel-title {
+    display: flex;
+    text-align: center;
+    margin: 4em auto 1em auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.painel-body {
+    width: 100%;
+    min-height: 65vh;
+    padding: 0 2em 2em 2em;
+    display: flex;
+    align-items: center;
+}
+
+h1.title {
+    font-size: 1.8em;
+    background-color: #fff;
+    border-radius: 3em;
+    padding: .2em;
+}
+
+.text-help {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 2em;
+    outline: none;
+    color: #fff;
+    padding: .5em 1em;
+    border-radius: 2em;
+}
+
+.text-help:focus {
+    box-shadow: 1px 1px 1px 1px #000;
+}
+
+.no-focus-style {
+    outline: none;
+}
+
+.btn-back {
+    background-image: url('/imagens/Icon_back.png');
+}
+
+.btn-conteudos {
+    background-image: url('/imagens/Icon_conteudos.png');
+}
+
+.btn-home {
+    background-image: url('/imagens/Icon_home.png');
+}
+
+.btn-back, .btn-conteudos, .btn-home {
+    width: 3em;
+    height: 3em;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9000px;
+    border-radius: 50%;
+    margin: 0 .3em;
+}
+
+.btn-back:focus, .btn-conteudos:focus, .btn-home:focus, .btn-back:hover, .btn-conteudos:hover, .btn-home:hover{
+    box-shadow: 2px 2px 1px #000;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-inline {
+    display: inline-flex;
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-menu, .btn-back:hover, .btn-conteudos:hover, .btn-home:hover, #questao:hover, .seta_pagina:hover, .card:hover {
+    cursor: pointer;
+}
+
+/* Tour */
+
+.tour {
+    min-width: 250px;
+    max-width: 300px;
+    position: absolute;
+    transition: all 550ms cubic-bezier(0.49, -0.01, 0.24, 0.85);
+    z-index: 100;
+    transform: translate(1030px, -150px);
+}
+
+.tour-header {
+    border-radius: .5em .5em 0 0;
+    color: #fff;
+    padding: 0.5em 0.2em;
+    font-weight: 500;
+    text-align: center;
+    background-color: var(--predominant-color);
+}
+
+.tour-body {
+    padding: 0.5em 1em;
+    background-color: #fff;
+}
+
+.tour-footer {
+    padding: 0.5em 0.2em;
+    border-radius: 0 0 .5em .5em;
+    background-color: var(--predominant-color);
+}
+

@@ -1,0 +1,152 @@
+body {
+    background-color: #9975a0a8;
+}
+
+.btn-back, .btn-home, .text-help, .seta_pagina {
+    background-color: #440052;
+}
+
+.btn-back:focus, .seta_pagina:focus, .btn-back:hover, .seta_pagina:hover {
+    background-color: #810f97;
+}
+
+.text-help:focus {
+    background-color: #810f97;
+    box-shadow: 1px 1px 1px 1px #000;
+} 
+
+.col-esquerda, .col-direita {
+    display: flex;
+}
+
+.col-esquerda {
+    justify-content: flex-end;
+}
+
+.col-direita {
+    justify-content: flex-start;
+}
+
+.col-5 {
+    text-align: center;
+}
+
+.col-7 {
+    text-align: left;
+    padding-left: 1.5em;
+}
+
+.col-10 {
+    padding-left: 15%;
+}
+
+.clear-estatistics {
+    margin: 0 1em;
+}
+
+.clear-estatistics:focus, .clear-estatistics:hover {
+    margin: 0 1em;
+    box-shadow: 2px 2px 2px #000!important;
+}
+
+.seta_pagina {
+    border-radius: 50%;
+    border: .15em solid #fff;
+    outline: none;
+}
+
+.seta_pagina:focus, .seta_pagina:hover {
+    box-shadow: 0 0 0 0.15rem  #06101a!important;
+    border: none;
+}
+
+#seta_esquerda {
+    transform: scaleX(-1);
+}
+
+#label {
+    padding-right: .2em;
+}
+
+sub {
+    font-size: .5em;
+}
+
+.spacing_1 {
+    word-spacing: .8em;
+}
+
+.spacing_2 {
+    word-spacing: 2em;
+}
+
+.painel-body {
+    padding-bottom: 0px!important;
+}
+
+.painel-head {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.conteudos {
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 0 2%;
+    padding: 0 1em 1em;
+    border-radius: .8em;
+    min-height: 25em;
+}
+
+.estatistics-contents {
+    display: grid;
+    align-items: flex-end;
+    height: 5em;
+}
+
+.progress {
+    height: 4em;
+    border-radius: 5em;
+    background-color: #d25454;
+    border: 2px solid #000;
+}
+
+.progress-bar {
+    background-color: #3fcc3b;
+}
+
+.labels-estatistics {
+    display: flex;
+    position: relative;
+    top: 1.2em;
+    padding: .2em 0;
+    font-size: 1.5em;
+}
+
+.infos-estatistics {
+    position: relative;
+    display: flex;
+    top: 1.7em;
+    color: #000;
+    font-size: 1.5em;
+    letter-spacing: .05em;
+    z-index: 1;
+}
+
+.infos-estatistics:focus, .labels-estatistics:focus, .infos-estatistics:hover, .labels-estatistics:hover {
+    cursor: default;
+    outline: none;
+}
+
+.labels-estatistics:focus {
+    background-color: #800f9742;
+    border-radius: .5em;
+    box-shadow: -2px -3px 0px 0px #000 inset;
+}
+
+.focus {
+    outline: none;
+    filter: saturate(1.2);
+    box-shadow: 2px 2px 2px #000;
+}
