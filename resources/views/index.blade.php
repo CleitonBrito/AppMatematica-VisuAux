@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
 
     <!-- Primary Meta Tags -->
@@ -22,7 +23,6 @@
     <meta property="twitter:description" content="Aplicação desenvolvida em projeto de TCC do curso de Licenciatura em Ciências da Computação.">
     <meta property="twitter:image" content="{{ url('/imagens/Site-Thumbi.jpg') }}">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/geral.css" />
