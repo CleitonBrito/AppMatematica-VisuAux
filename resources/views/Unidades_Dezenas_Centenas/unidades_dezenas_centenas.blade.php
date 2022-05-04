@@ -29,8 +29,8 @@
 </head>
 <body onload="focusMessage(3050), showCards(limite_questoes), verifyMouse()">
     <div class="nav-buttons">
-        <img class="btn-back" tabindex="2" src="{{ url('/imagens/icon_back.png') }}" alt="Botão Voltar" onclick="direct('/conteudos')" onkeypress="direct('/conteudos')"/>
-        <img id="btn_home" class="btn-home" tabindex="2" src="{{ url('/imagens/icon_home.png') }}" alt="Botão Início" />
+        <img class="btn-back" tabindex="2" src="{{ url('/imagens/Icon_back.png') }}" alt="Botão Voltar" onclick="direct('/conteudos')" onkeypress="direct('/conteudos')"/>
+        <img id="btn_home" class="btn-home" tabindex="2" src="{{ url('/imagens/Icon_home.png') }}" alt="Botão Início" />
     </div>
     <div class="painel-conteudos">
         <div class="painel-title no-focus-style">
