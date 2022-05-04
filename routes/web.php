@@ -1,6 +1,6 @@
 <?php
 
-    namespace App\Http\middleware;
+    namespace App\Http\Middleware;
     use App\Http\Controllers\C_Unidades_Dezenas_Centenas;
     use App\Http\Controllers\C_Operacoes_Basicas;
     use App\Http\Controllers\C_Fracoes;
