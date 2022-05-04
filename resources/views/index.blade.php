@@ -20,7 +20,7 @@
     <meta property="twitter:url" content="https://myproj.top/">
     <meta property="twitter:title" content="Menu | AppMatemática">
     <meta property="twitter:description" content="Aplicação desenvolvida em projeto de TCC do curso de Licenciatura em Ciências da Computação.">
-    <meta property="twitter:image" content="">
+    <meta property="twitter:image" content="{{ url('/imagens/Site-Thumbi.jpg') }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css"/>
