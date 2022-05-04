@@ -31,7 +31,7 @@
 </head>
 <body onload="focusMessage(1000), createStorage(), verifyMouse()">
     <div class="nav-buttons">
-        <img class="btn-back" tabindex="2" src="{{ url('imagens/Icon_Back.png') }}" alt="Botão Voltar" onclick="direct('/conteudos/Unidades_Dezenas_Centenas')" />
+        <img class="btn-back" tabindex="2" src="{{ url('imagens/Icon_back.png') }}" alt="Botão Voltar" onclick="direct('/conteudos/Unidades_Dezenas_Centenas')" />
         <img id="btn_conteudos" class="btn-conteudos" tabindex="2" src="{{ url('/imagens/Icon_conteudos.png') }}" alt="Botão Conteúdos"/>
         <img id="btn_home" class="btn-home" tabindex="2" src="{{ url('/imagens/Icon_home.png') }}" alt="Botão Início" />
     </div>
