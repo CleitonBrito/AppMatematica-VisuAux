@@ -2,7 +2,26 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8" />
-    <title>Menu</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Menu | AppMatemática</title>
+    <meta name="title" content="Menu | AppMatemática">
+    <meta name="description" content="Aplicação desenvolvida em projeto de TCC do curso de Licenciatura em Ciências da Computação.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://myproj.top/">
+    <meta property="og:title" content="Menu | AppMatemática">
+    <meta property="og:description" content="Aplicação desenvolvida em projeto de TCC do curso de Licenciatura em Ciências da Computação.">
+    <meta property="og:image" content="{{ url('/imagens/Site-Thumbi.jpg') }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://myproj.top/">
+    <meta property="twitter:title" content="Menu | AppMatemática">
+    <meta property="twitter:description" content="Aplicação desenvolvida em projeto de TCC do curso de Licenciatura em Ciências da Computação.">
+    <meta property="twitter:image" content="">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../css/index.css" />
