@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 13-Jun-2022 às 18:44
+-- Tempo de geração: 13-Jun-2022 às 18:48
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.1.2
 
@@ -64,9 +64,9 @@ CREATE TABLE `dificuldade` (
 --
 
 INSERT INTO `dificuldade` (`id`, `dificuldade`, `min`, `max`) VALUES
-(1, 'Fácil', 1, 100),
-(2, 'Médio', 500, 1500),
-(3, 'Difícil', 1500, 10000);
+(1, 'Fácil', 1, 10),
+(2, 'Médio', 10, 100),
+(3, 'Difícil', 100, 500);
 
 -- --------------------------------------------------------
 
