@@ -111,7 +111,6 @@
                 }
                 $juntar .= $numero;
             }
-            echo $juntar;
             return intval($juntar);
         }
 
