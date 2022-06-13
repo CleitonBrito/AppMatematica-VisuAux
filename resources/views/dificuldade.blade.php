@@ -58,5 +58,12 @@
     <script src="{{ url('../js/geral.js') }}"></script>
     <script src="{{ url('../js/link_botoes.js') }}"></script>
     <script src="{{ url('../js/ally.min.js') }}"></script>
+    <script>
+        if ($('#modalQuestoes').length){
+            $('#modalQuestoes').on('shown.bs.modal', function () {
+                $('.modal-title').focus();
+            });
+        }
+    </script>
 </body>
 </html>

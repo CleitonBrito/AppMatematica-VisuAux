@@ -111,6 +111,7 @@
                 }
                 $juntar .= $numero;
             }
+            echo $juntar;
             return intval($juntar);
         }
 
@@ -118,7 +119,6 @@
             $questoes = session('questoes');
             $dificuldade = session('dificuldade');
             $numeros = $this->genereteNumbersToQuestions();
-
 
             foreach($numeros as $key => $numero){
                 if($questoes[$key]->juntar == "true"){
