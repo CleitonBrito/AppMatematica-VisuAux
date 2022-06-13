@@ -35,13 +35,6 @@ let btn_home = document.getElementById('btn_home');
 })) : null;
 
 
-if ($('#modalQuestoes').length){
-    $('#modalQuestoes').on('shown.bs.modal', function () {
-        $('.modal-title').focus();
-    });
-}
-
-
 let btn_conteudos_1 = document.getElementById('btn_conteudos_1');
 let btn_conteudos_2 = document.getElementById('btn_conteudos_2');
 let btn_conteudos_3 = document.getElementById('btn_conteudos_3');

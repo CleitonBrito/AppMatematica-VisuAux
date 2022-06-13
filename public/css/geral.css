@@ -3,6 +3,7 @@
 }
 
 body {
+    text-transform: uppercase;
     display: flex;
     height: 100vh;
     background-image: url(../imagens/bg.png);
