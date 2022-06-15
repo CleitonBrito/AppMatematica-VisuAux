@@ -18,7 +18,7 @@
                 'max' => null
             ];
 
-            $limite = ($dificuldade->max * $questao_peso * 10)/100;
+            $limite = ($dificuldade->max * $questao_peso * 10)/100 <= 5 ? 10 : ($dificuldade->max * $questao_peso * 10)/100;
 
             if($limite > $dificuldade->min || $limite >= $dificuldade->max)
                 $min = $dificuldade->min;

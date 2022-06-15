@@ -14,8 +14,11 @@
                 $numero = rand($min, $max);
                 
                 if($repetir == false && $diferenteDe != false){
-                    while(in_array($numero, $numeros) || $numero == $diferenteDe){
-                        $numero = rand($min, $max);
+                    while($numero == $diferenteDe){
+                        list($usec, $sec) = explode(' ', microtime());
+                        $seed =  $sec + $usec * 1000000;
+                        srand($seed);
+                        $numero = rand($min, 100);
                     }
                 }else if($repetir == false){
                     while(in_array($numero, $numeros)){
