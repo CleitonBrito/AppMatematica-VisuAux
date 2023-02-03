@@ -42,7 +42,7 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                 <div class="modal-header">
-                    <h5 tabindex="0" class="modal-title" id="exampleModalLongTitle" >Tecle TAB, digite a quantidade de quetões para cada conteúdo e tecle ENTER para começar.</h5>
+                    <h5 tabindex="0" class="modal-title" id="exampleModalLongTitle" >Tecle TAB, digite a quantidade de questões para cada conteúdo e tecle ENTER para começar.</h5>
                 </div>
                 <div class="modal-body">
                     <input tabindex="0" type="number" name="qtd_questoes" id="qtd_questoes" min="0">
